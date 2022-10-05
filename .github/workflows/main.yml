@@ -2,7 +2,7 @@ name: AutoSignIn
 on:
     schedule:
     #UTC时间16点对应北京时间0点
-    - cron: '50 0,16,20 * * *'
+    - cron: '45 0,16,19 * * *'
     workflow_dispatch:
 jobs:
   build:
